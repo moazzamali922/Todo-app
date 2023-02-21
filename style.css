@@ -1,0 +1,264 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    /* background-color: #111; */             
+    background-image: url(https://media.istockphoto.com/id/1146532466/photo/abstract-blue-digital-background.jpg?b=1&s=170667a&w=0&k=20&c=dSA5-nFFQ2szrdDxg8qHy67azMPkshnzPgtBgSsECkY=);
+	background-repeat: repeat;     
+	background-size: cover;
+}                 
+
+  .div{
+	  margin-top: 180px;
+  }
+
+h1 {
+     font-family:cursive;
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color:  purple;
+    text-decoration: underline;
+    font-family: 'rounded', sans-serif;
+}
+
+.styling {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.merge-bar {
+    display: flex;
+    border: 3px solid rgb(211, 97, 97);
+    border-radius: 1.625rem;
+    background-color: #fff;
+    width: 500px;
+}
+
+
+.unlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: White;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'rounded', sans-serif;
+}
+
+.input {
+    border-radius: 1.5rem;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.3rem;
+    border: none;
+    margin-left: 10px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.addButton {
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    margin-right: 10px;
+    border: none;
+    width: 50px;
+    background-color: #13fe4e;
+}
+
+.addButton:focus {
+    border: none;
+}
+
+.addButton:hover {
+    cursor: pointer;
+    color: #111;
+    background-color: #fff;
+    border: 3px solid #4f585f;
+}
+
+.adelButton {
+    border-radius: 1.5rem;
+    border: 2px solid rgb(255, 0, 0);
+    color: red;
+    padding: 10px;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.adelButton:hover {
+    cursor: pointer;
+    background-color: #eec81e80;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+.removeButton {
+    font-size: 1.4rem;
+    font-family: 'rounded', sans-serif;
+    color: #fff;
+    background-color: #ff3855;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 10px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.removeButton:hover {
+    color: #eec81e80;
+    border: 1px solid #eec81e80;
+    background-color: #fff;
+
+}
+
+.editButton{
+    font-size: 1.4rem;
+    font-family: 'rounded', sans-serif;
+    color: #fff;
+    background-color: #32df0f;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 10px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.editButton:hover{
+    color: #eec81e80;
+    border: 1px solid #eec81e80;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .styling{
+    font-weight: 800;
+    color: lime;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    margin: 0.25rem;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'rounded' , sans-serif;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.removeButton{
+    font-size: 1.4rem;
+    font-family: rounded , sans-serif;
+    background: none;
+    outline: none;
+    color: #E00;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+ul li{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.8rem;
+    line-height: 0%;
+} */

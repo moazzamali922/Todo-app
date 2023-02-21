@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+      <script>
+         const firebaseConfig = {
+    apiKey: "AIzaSyBRbkXE8jXuMCpSqDUB-LtsQ6KGvOd5pxc",
+    authDomain: "todo-app-project-c169b.firebaseapp.com",
+    projectId: "todo-app-project-c169b",
+    storageBucket: "todo-app-project-c169b.appspot.com",
+    messagingSenderId: "25697349952",
+    appId: "1:25697349952:web:15665f8e14c14e896a0aa5",
+    measurementId: "G-J2EB4MKFPF"
+  };                              
+   // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics(app);
+      </script>
+</head>    
+
+<body>
+       <div class="div">
+        <h1><span class="styling"> The Perfect </span>  TODO List</h1>  
+    <div class="input_div">
+       <div class="merge-bar">
+        <input id="todo-item" class="input" type="text" placeholder="What Do You Have Planned? ...">
+        <button onclick="addTodo()" class="addButton"><i class="fa-solid fa-plus"></i></i></button>
+       </div>
+        <button onclick="deleteAll()" class="adelButton">DELETE ALL</button>
+    </div>
+
+    <div class="unlist">
+        <ul id="list">
+   
+        </ul>
+    </div>
+    <!-- <div class="container">
+         <div class="item">
+            <input type="text" class="item_input" disabled>
+            <button class="editButton">EDIT</button>
+            <button class="removeButton">Remove</button>
+        </div> -->
+     </div>  
+</body>
+<script src="app.js"></script>
+
+</html>
